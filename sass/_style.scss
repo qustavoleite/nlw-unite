@@ -1,0 +1,109 @@
+body {
+  background-color: #121214;
+  color: #fff;
+  .container {
+    max-width: 690px;
+    margin: 0 auto;
+    padding: 2rem 3.2rem;
+    header {
+      padding: 2rem 0;
+    }
+    form {
+      border: var(--border);
+      border-inline: none;
+      padding: 2rem 0;
+      fieldset {
+        legend {
+          font: 700 1.6rem/140% "Roboto", sans-serif;
+          color: #e1e1e6;
+          padding-bottom: 1.6rem;
+        }
+        border: none;
+        div {
+          display: flex;
+          gap: 1.2rem;
+          button {
+            background-color: #f48f56; /*#f48f*/
+            width: fit-content;
+            border: 0;
+            border-radius: 1rem;
+            padding: 0.7rem 2rem;
+            font: 700 1.2rem/2.5rem "Roboto", sans-serif;
+            color: #00292e;
+            text-transform: uppercase;
+            &:hover {
+              background-color: #f58442;
+            }
+          }
+          .input-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            border: var(--border);
+            border-radius: 1rem;
+            padding: 0.8rem 1.2rem;
+            font: 400 1.4rem/150% "Roboto", sans-serif;
+            color: #c4c4cc;
+            input {
+              all: unset;
+            }
+          }
+        }
+      }
+    }
+
+    .lista-participantes {
+      padding: 20px 0;
+      h2 {
+        font: 700 1.6rem/140% "Roboto", sans-serif;
+        color: #e1e1e6;
+        padding-bottom: 1.6rem;
+      }
+      div {
+        border: var(--border);
+        border-radius: 0.8rem;
+        table {
+          border-collapse: collapse;
+          thead {
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            th {
+              padding: 1.2rem 1.6rem;
+            }
+          }
+
+          tbody {
+            td {
+              padding: 1.2rem 1.6rem;
+              border-top: var(--border);
+              font-size: 1.3rem;
+              line-height: 1.5rem;
+              color: #c4c4cc;
+
+              small {
+                font-size: 1.2rem;
+                line-height: 1.6rem;
+              }
+
+              button {
+                all: unset;
+                color: #9ff9cc;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+
+              strong {
+                color: #fff;
+                font-size: 1.4rem;
+                line-height: 1.6rem;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
