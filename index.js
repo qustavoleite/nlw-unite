@@ -47,12 +47,6 @@ let participants = [
     registrationDate: new Date(2023, 7, 8, 19, 23),
     checkInDate: new Date(2023, 7, 9, 20, 20),
   },
-  {
-    name: "Paula Costa",
-    email: "paula@gmail.com",
-    registrationDate: new Date(2023, 6, 9, 19, 23),
-    checkInDate: null,
-  },
 ]
 
 const createNewParticipant = (participant) => {
